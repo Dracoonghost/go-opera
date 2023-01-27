@@ -202,6 +202,7 @@ func mayGetGenesisStore(ctx *cli.Context) *genesisstore.Store {
 				NetworkID:   g.NetworkID,
 				NetworkName: g.NetworkName,
 			}
+			goto notExperimental
 			for _, allowed := range AllowedOperaGenesis {
 				if allowed.Hashes.Equal(genesisHashes) && allowed.Header.Equal(gHeader) {
 					log.Info("Genesis file is a known preset", "name", allowed.Name)
