@@ -20,7 +20,7 @@ on how you can run your own `opera` instance.
 
 ### Launching a network
 
-You will need a genesis file to join a network, which may be found in https://github.com/Fantom-foundation/lachesis_launch
+You will need a genesis file to join a network, which may be found in https://github.com/making-choice-personal/genesis
 
 Launching `opera` readonly (non-validator) node for network specified by the genesis file:
 

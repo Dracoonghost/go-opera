@@ -38,9 +38,9 @@ nfpm:
     darwin: macOS
     linux: Tux
 
-  vendor: Fanton Foundation
-  homepage: https://fantom.foundation
-  maintainer: Samuel Marks <samuel@fantom.foundation>
+  vendor: NESTECH LTD
+  homepage: https://nes.tech
+  maintainer: Dipendra Singh <dipendra@nes.tech>
   description: BFT Consensus platform for distributed applications.
   license: MIT
 
